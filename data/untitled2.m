@@ -1,0 +1,47 @@
+figure
+tsne(X)
+scatter(ans(y==0,1),ans(y==0,2),'blue','filled')
+hold on
+scatter(ans(y==1,1),ans(y==1,2),'red','filled','pentagram')
+
+% XX = fillmissing(data,'nearest');
+% tsne(XX)
+% figure
+% scatter(ans(y==0,1),ans(y==0,2),'blue','filled')
+% hold on
+% scatter(ans(y==1,1),ans(y==1,2),'red','filled','pentagram')
+% hold off
+% 
+% XX = fillmissing(data,'linear');
+% tsne(XX)
+% figure
+% scatter(ans(y==0,1),ans(y==0,2),'blue','filled')
+% hold on
+% scatter(ans(y==1,1),ans(y==1,2),'red','filled','pentagram')
+% hold off
+% 
+% XX = fillmissing(data,'pchip');
+% tsne(XX)
+% figure
+% scatter(ans(y==0,1),ans(y==0,2),'blue','filled')
+% hold on
+% scatter(ans(y==1,1),ans(y==1,2),'red','filled','pentagram')
+% hold off
+% 
+% XX = fillmissing(data,'spline');
+% tsne(XX)
+% figure
+% scatter(ans(y==0,1),ans(y==0,2),'blue','filled')
+% hold on
+% scatter(ans(y==1,1),ans(y==1,2),'red','filled','pentagram')
+% hold off
+% 
+% XX = fillmissing(data,'makima');
+% tsne(XX)
+% figure
+% scatter(ans(y==0,1),ans(y==0,2),'blue','filled')
+% hold on
+% scatter(ans(y==1,1),ans(y==1,2),'red','filled','pentagram')
+% hold off
+
+
